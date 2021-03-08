@@ -1,4 +1,4 @@
-# NOTICE.txt
+# CONTRIBUTORS.txt
 #
 # Copyright (c) 2012-2021 Rafael Corchuelo.
 #
@@ -12,3 +12,6 @@ The contributors of this project are:
 
 - Rafael Corchuelo (corchu@us.es)
 - Juan José Pérez Plata (jjperezplata@gmail.com)
+- Daniel Toro Valle (dantorval@alum.us.es)
+- Álvaro Echegoyán Delgado (alvechdel@alum.us.es)
+- Alejandro Piury Pinzón (alejandropiuryp@gmail.com)
