@@ -8,7 +8,10 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
+The contributors of this project are:
+
 - Rafael Corchuelo (corchu@us.es)
+- Juan José Pérez Plata (jjperezplata@gmail.com)
 - Daniel Toro Valle (dantorval@alum.us.es)
 - Álvaro Echegoyán Delgado (alvechdel@alum.us.es)
 - Alejandro Piury Pinzón (alejandropiuryp@gmail.com)
