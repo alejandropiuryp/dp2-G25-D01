@@ -9,6 +9,6 @@
 # they accept any liabilities with respect to them.
 
 - Rafael Corchuelo (corchu@us.es)
+- Daniel Toro Valle (dantorval@alum.us.es)
 - Álvaro Echegoyán Delgado (alvechdel@alum.us.es)
 - Alejandro Piury Pinzón (alejandropiuryp@gmail.com)
-
