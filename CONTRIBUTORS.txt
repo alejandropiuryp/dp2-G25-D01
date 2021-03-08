@@ -11,6 +11,7 @@
 The contributors of this project are:
 
 - Rafael Corchuelo (corchu@us.es)
+- Antonio Pérez Vázquez (aperezva32@gmail.com)
 - Juan José Pérez Plata (jjperezplata@gmail.com)
 - Daniel Toro Valle (dantorval@alum.us.es)
 - Álvaro Echegoyán Delgado (alvechdel@alum.us.es)
