@@ -10,9 +10,9 @@
 
 # master.banner.welcome #######################################################
 
-master.banner.background = #caf0af 
+master.banner.background = #caf0af
 
-﻿# master.welcome ##############################################################
+# master.welcome ##############################################################
 
 master.welcome.title = ¡Bienvenidos!
 master.welcome.text = \
@@ -31,6 +31,11 @@ master.menu.sign-out = Salir
 master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link = Enlace favorito
 master.menu.anonymous.manuel-favourite-link = Enlace favorito de Manuel
+master.menu.anonymous.antonio-favourite-link = Enlace favorito de Antonio
+master.menu.anonymous.daniel-favourite-link = Enlace favorito de Daniel
+master.menu.anonymous.alvaro-favourite-link = Enlace favorito de Álvaro
+master.menu.anonymous.JuanJose-favourite-link = Enlace favorito de Juan Jose
+master.menu.anonymous.alejandro-favourite-link = Enlace favorito de Alejandro
 
 # master.menu.administrator ###################################################
 
