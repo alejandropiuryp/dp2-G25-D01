@@ -10,14 +10,12 @@
 
 # master.banner.welcome #######################################################
 
-master.banner.background = #FFE97F 
+master.banner.background = #caf0af 
 
 ﻿# master.welcome ##############################################################
 
 master.welcome.title = ¡Bienvenidos!
-master.welcome.text = \
-	Bienvenidos a Acme Stater!  Nunca antes ha sido tan sencillo desarrollar un \
-	proyecto y hacerlo funcionar.
+master.welcome.text = ¡Bienvenido a Acme One! Tu primer proyecto en D&T.
 
 # master.menu #################################################################
 
@@ -44,7 +42,12 @@ master.menu.administrator.shutdown = Parar el sistema
 
 master.menu.provider = Proveedor
 master.menu.provider.favourite-link = Enlace favorito
-
+master.menu.anonymous.manuel-favourite-link = Enlace favorito de Manuel Perez
+master.menu.anonymous.antonio-favourite-link = Enlace favorito de Antonio Perez
+master.menu.anonymous.daniel-favourite-link = Enlace favorito de Toro
+master.menu.anonymous.alvaro-favourite-link = Enlace favorito de Echegoyan
+master.menu.anonymous.JuanJose-favourite-link = Enlace favorito de Juan Jose Perez
+master.menu.anonymous.alejandro-favourite-link = Enlace favorito de Piury
 # master.menu.consumer ##########################################################
 
 master.menu.consumer = Consumidor
