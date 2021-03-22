@@ -16,10 +16,16 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:form>
-	<acme:form-textbox code="anonymous.user-account.label.author" path="author"/>
-	<acme:form-textarea code="anonymous.user-account.label.text" path="text"/>
-	<acme:form-textbox code="anonymous.user-account.label.info" path="info"/>
+	<acme:form-textbox code="anonymous.user-account.label.username" path="username"/>
+	<acme:form-password code="anonymous.user-account.label.password" path="password"/>
+	<acme:form-password code="anonymous.user-account.label.confirmation" path="confirmation"/>
 	
-	<acme:form-submit code="anonymous.user-account.button.create" action="/anonymous/shout/create"/>
+	<acme:form-textbox code="anonymous.user-account.label.name" path="identity.name"/>
+	<acme:form-textbox code="anonymous.user-account.label.surname" path="identity.surname"/>
+	<acme:form-textbox code="anonymous.user-account.label.email" path="identity.email"/>
+	 
+	<acme:form-checkbox code="anonymous.user-account.label.accept" path="accept"/>
+	
+	<acme:form-submit code="anonymous.user-account.button.create" action="/anonymous/user-account/create"/>
   	<acme:form-return code="anonymous.user-account.button.return"/>
 </acme:form>
