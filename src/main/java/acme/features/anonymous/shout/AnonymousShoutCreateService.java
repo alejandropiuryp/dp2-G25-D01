@@ -60,6 +60,8 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		result.setText("Lorem ipsum!");
 		result.setMoment(moment);
 		result.setInfo("http://example.org");
+		
+		return result;
 	}
 
 	@Override
