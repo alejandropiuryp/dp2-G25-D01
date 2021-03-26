@@ -1,7 +1,18 @@
+/*
+ * AnonymousShoutCreateService.java
+ *
+ * Copyright (C) 2012-2021 Rafael Corchuelo.
+ *
+ * In keeping with the traditional purpose of furthering education and research, it is
+ * the policy of the copyright owner to permit non-commercial use and redistribution of
+ * this software. It has been tested carefully, but it is not guaranteed for any particular
+ * purposes. The copyright owner does not offer any warranties or representations, nor do
+ * they accept any liabilities with respect to them.
+ */
+
 package acme.features.anonymous.shout;
 
-
-import java.sql.Date;
+import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,75 +25,76 @@ import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractCreateService;
 
 @Service
-public class AnonymousShoutCreateService implements AbstractCreateService<Anonymous, Shout>{
+public class AnonymousShoutCreateService implements AbstractCreateService<Anonymous, Shout> {
+
+	// Internal state ---------------------------------------------------------
 
 	@Autowired
 	protected AnonymousShoutRepository repository;
 
+	// AbstractCreateService<Administrator, Shout> interface --------------
+
 	@Override
 	public boolean authorise(final Request<Shout> request) {
-		// TODO Auto-generated method stub
 		assert request != null;
+
 		return true;
 	}
 
 	@Override
 	public void bind(final Request<Shout> request, final Shout entity, final Errors errors) {
-		// TODO Auto-generated method stub
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
-		
+
 		request.bind(entity, errors);
 	}
 
 	@Override
 	public void unbind(final Request<Shout> request, final Shout entity, final Model model) {
-		// TODO Auto-generated method stub
-		assert 	request != null;
+		assert request != null;
 		assert entity != null;
 		assert model != null;
-		
+
 		request.unbind(entity, model, "author", "text", "info");
 	}
 
 	@Override
 	public Shout instantiate(final Request<Shout> request) {
-		// TODO Auto-generated method stub
 		assert request != null;
-		
-		final Shout result;
+
+		Shout result;
 		Date moment;
+
 		moment = new Date(System.currentTimeMillis() - 1);
-		
+
 		result = new Shout();
 		result.setAuthor("John Doe");
 		result.setText("Lorem ipsum!");
 		result.setMoment(moment);
 		result.setInfo("http://example.org");
-		
+
 		return result;
 	}
 
 	@Override
 	public void validate(final Request<Shout> request, final Shout entity, final Errors errors) {
-		// TODO Auto-generated method stub
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
+
 	}
 
 	@Override
 	public void create(final Request<Shout> request, final Shout entity) {
-		// TODO Auto-generated method stub
-		assert 	request != null;
+		assert request != null;
 		assert entity != null;
-		
+
 		Date moment;
-		
+
 		moment = new Date(System.currentTimeMillis() - 1);
 		entity.setMoment(moment);
-		this.repository.save(entity); //Falla debido a que todavia no esta implementado ese metodo
+		this.repository.save(entity);
 	}
 
 }
