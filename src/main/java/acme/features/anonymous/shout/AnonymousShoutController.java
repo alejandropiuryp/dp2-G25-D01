@@ -12,17 +12,23 @@ import acme.framework.controllers.AbstractController;
 import acme.framework.entities.Anonymous;
 
 @Controller
-@RequestMapping("/anonymous/shout/")
-public class AnonymousShoutController extends AbstractController<Anonymous, Shout> {
+@RequestMapping("/anonymous/shout")
+public class AnonymousShoutController extends AbstractController<Anonymous, Shout>{
 	
-	//Internal state ------------
+	// Internal state --------------------------------------------------------
+	
 	@Autowired
+	private AnonymousShoutCreateService createService;
+  
+  @Autowired
 	private AnonymousShoutListService listService;
 	
-	//Constructor 
+	// Constructors ----------------------------------------------------------
+	
 	@PostConstruct
 	private void initialise() {
-		super.addBasicCommand(BasicCommand.LIST, this.listService);
+		super.addBasicCommand(BasicCommand.CREATE, this.createService);
+    super.addBasicCommand(BasicCommand.LIST, this.listService);
 	}
 	
 }

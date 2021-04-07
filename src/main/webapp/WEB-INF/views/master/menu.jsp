@@ -26,6 +26,7 @@
 			<acme:menu-suboption code="master.menu.anonymous.alvaro-favourite-link" action="https://www.youtube.com/"/>
 			<acme:menu-suboption code="master.menu.anonymous.JuanJose-favourite-link" action="https://www.twitch.tv/polo"/>
 			<acme:menu-suboption code="master.menu.anonymous.alejandro-favourite-link" action="https://danielmarin.naukas.com/"/>
+			<acme:menu-suboption code="master.menu.anonymous.create-shout-link" action="/anonymous/shout/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.shout-list" action="/anonymous/shout/list"/>
 		</acme:menu-option>
 

@@ -49,5 +49,4 @@ public class AnonymousShoutListService implements AbstractListService<Anonymous,
 	}
 	
 
-	
 }
