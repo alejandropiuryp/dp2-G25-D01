@@ -1,4 +1,4 @@
-# NOTICE.txt
+# i18n_es.messages
 #
 # Copyright (C) 2012-2021 Rafael Corchuelo.
 #
@@ -8,7 +8,12 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-- Rafael Corchuelo (corchu@us.es)
-- Manuel Pérez Carrillo (manpercar1@alum.us.es)
-- Antonio Pérez Vázquez (aperezva32@gmail.com)
-- Alejandro Piury Pinzón (alejandropiuryp@gmail.com)
+anonymous.shout.form.label.author = Autor:
+anonymous.shout.form.label.text = Texto:
+anonymous.shout.form.label.info = Info:
+anonymous.shout.form.button.create = Gritar
+anonymous.shout.form.button.return = Volver
+
+anonymous.shout.list.label.moment = Momento
+anonymous.shout.list.label.author = Autor
+anonymous.shout.list.label.text = Texto
