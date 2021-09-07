@@ -9,3 +9,5 @@
 # they accept any liabilities with respect to them.
 
 This is Acme One, my first project in D&T.
+
+Este proyecto es el proyecto del grupo G32 entregado en Junio. Se han realizado las modificaciones pertinentes para el entregable de Septiembre.
